@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- stylesheet line connects css-->
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!--script tag connects js - rememeber the defer keyword-->
+    <script src="static/JS/dom.js" defer></script>
+    <!-- defer tell html file to not load script until u loaded the DOM -->
+    <!-- otherwise we will just have JS stuff that doesnt work the way we intended to-->
+</head>
+
+<body>
+    <h1 id="header">Hello</h1>
+    <button id="color-button">Change color of text</button>
+    <br>
+    <form name="testform" id="sharkform">
+        <label for="shark-name">Shark name:</label>
+        <input type="text" name="shark-name" id="shark-name">
+
+        <label for="shark-fact">Sharkfact:</label>
+        <input type="text" name="'shark-fact" id="'shark-fact">
+
+        <button type="submit" id="submitButton">Submit Sharkfact</button>
+    </form>
+    <br><br>
+</body>
+
+</html>

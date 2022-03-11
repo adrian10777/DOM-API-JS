@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CatFacts</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="static/JS/APIS.js" defer></script>
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="Header">
+            <h1 id="header">CatFacts</h1>
+        </div>
+        <div class="welcome">
+            <h3 id="welcome-message">Please submit the form.</h3>
+        </div>
+        <div class="form"><form name="catform" id="catform">
+            <label for="name">What is your name?</label>
+            <input type="text" name="name" id="name">
+    
+            <label for="fact-input">Would you like to receive a catfact?</label>
+            <input type="text" name="fact-input" id="fact-input">
+    
+            <button type="submit" id="submit">submit</button>
+            </form>
+        </div>
+        <div class="facts">
+
+        </div>
+      </div>
+  </body>
+</html>

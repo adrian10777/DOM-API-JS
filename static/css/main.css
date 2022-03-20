@@ -1,9 +1,13 @@
+h1 {
+    color: rgb(48, 79, 145);
+}
+
 .color-change {
     color: green;
 }
 
 .color-change-two {
-    color:red;
+    color: red;
 }
 
 .container {  display: grid;
@@ -13,16 +17,16 @@
     gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Header Header"
+      "header welcome"
       "form form"
-      "facts facts";
+      "fact fact";
   }
   
-  .Header { grid-area: Header; }
-
+  .header { grid-area: header; }
+  
   .welcome { grid-area: welcome; }
   
   .form { grid-area: form; }
   
-  .facts { grid-area: facts; }
+  .fact { grid-area: fact; }
   
